@@ -359,3 +359,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Local credentials and generated output
+.env
+.env.*
+!.env.example
+**/bin/
+**/obj/
